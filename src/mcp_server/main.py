@@ -3,6 +3,9 @@
 Google Drive MCP server that integrates with a shared Postgres database.
 OAuth tokens are stored in the UserToken table (managed by Node/Prisma).
 """
+#    Code Notes for teammates -----
+# * This file (server) acts as a backend service that exposes our Users Google Drive to the client calls, 
+# * We will communicate between server and client using FastMCP which will expose our functions as tools to Gemini so it can interact with our Gdrive
 
 import os
 import io
