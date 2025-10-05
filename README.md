@@ -8,7 +8,7 @@ CLIENT_ID=
 CLIENT_SECRET=
 USER_ID=
 
-run fast api with uv : `uv run arc/app/main.py`
+run fast api with `uv run python -m src.app.main`
 run mcp server with `uv run src/mcp_server/main.py`
 run mcp client with : `uv run src/mcp_client/main.py`
 
