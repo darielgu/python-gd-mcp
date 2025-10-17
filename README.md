@@ -7,6 +7,11 @@ DATABASE_URL=
 CLIENT_ID=
 CLIENT_SECRET=
 USER_ID=
+REDIRECT_URI=
+SESSION_SECRET=
+FRONTEND_URL=
+BACKEND=
+PROJECT_ID=
 
 run fast api with `uv run python -m src.app.main`
 run mcp server with `uv run src/mcp_server/main.py`
